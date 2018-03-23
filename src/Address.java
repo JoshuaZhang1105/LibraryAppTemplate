@@ -18,10 +18,10 @@ public class Address {
      */
 
 class Address {
-    String street;
-    String city;
-    String state;
-    String postalCode;
+    String Street;
+    String City;
+    String Province;
+    String PostalCode;
     public String toString() {
-        return this.street + ", " + this.city + ", " + this.state + " " + this.postalCode;
+        return this.Street + ", " + this.City + ", " + this.State + " " + this.PostalCode;
 }
